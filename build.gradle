@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'org.ddanzit'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.1'
 
 java {
     toolchain {
@@ -18,6 +18,10 @@ configurations {
     compileOnly {
         extendsFrom annotationProcessor
     }
+}
+
+jar{
+    enabled = false
 }
 
 publishing {
