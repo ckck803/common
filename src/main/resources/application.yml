@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: common
+
+jwt:
+  secret: cf22e25d410eada06f94ab5a052cda7c4035c54413119784857698d6fd5eeedf3772fcf467b0b8738afd8effb651ab47055cc0aa81d0937d41efa9aeffc3d446
+  access_token:
+    life_time: 3600000
+  refresh_token:
+    life_time: 604800000
